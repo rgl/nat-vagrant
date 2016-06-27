@@ -52,8 +52,8 @@ zone="
                 IN      NS      a.ns
                 IN      A       $config_ip_address
 gw              IN      A       $config_ip_address
-a1              IN      A       $config_base_node_ip_address.1
-a2              IN      A       $config_base_node_ip_address.2
+a11             IN      A       $config_base_node_ip_address.11
+a12             IN      A       $config_base_node_ip_address.12
 "
 zone2sql --zone=<(echo "$zone") --gsqlite | sqlite3 /var/lib/powerdns/pdns.sqlite3
 

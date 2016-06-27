@@ -9,7 +9,7 @@
       <w>100</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>a1</panel_attributes>
+    <panel_attributes>a11</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -33,7 +33,7 @@ gw</panel_attributes>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=-
-r1=.1
+r1=.11
 m1=eth1</panel_attributes>
     <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
   </element>
@@ -45,7 +45,7 @@ m1=eth1</panel_attributes>
       <w>100</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>a2</panel_attributes>
+    <panel_attributes>a12</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -72,7 +72,7 @@ lt=.</panel_attributes>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=-
-r1=.2
+r1=.12
 m1=eth1</panel_attributes>
     <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
   </element>

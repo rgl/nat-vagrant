@@ -12,10 +12,11 @@ Vagrant.configure(2) do |config|
   config.vm.define "gw" do |gw|
     gw.vm.hostname = "gw.example.com"
     gw.vm.network "private_network", ip: "10.10.10.254"
+    gw.vm.network "private_network", ip: "10.10.11.254"
     gw.vm.provision "shell", path: "provision-gw.sh"
   end
 
-  (1..2).each do |n|
+  (11..12).each do |n|
     config.vm.define "a#{n}" do |a|
       a.vm.hostname = "a#{n}.example.com"
       a.vm.network "private_network", ip: "10.10.10.#{n}"
